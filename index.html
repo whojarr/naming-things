@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h2>Naming Things</h2>
+					easy? maybe? maybe not!
+					<pre>"man tackles jawa sandcrawler tentacle of doom with mixed success"</pre>
+				</section>
+
+				<section>
+					<h2>WARNING!</h2>
+					This is purly an observation based on years of lack of sleep and confusion.<br/>
+					Do not attempt to replicate these observations without professional saftey and medical experts present. 
+				</section>
+
+				<section data-background-image="images/seven.jpg" data-background-opacity="0.2">
+					<h1>7 Principles of Naming things</h1>
+					<cite>https://www.namingthings.co/naming-things-principles</cite>
+				</section>
+
+				<section data-background-image="images/missed.jpg" data-background-opacity="0.2">
+					<h2>Consistency</h2>
+					<p>Each concept should be represented by a single, unique name.</p>
+					<p class="fragment fade-up">If using terms for grouping items,<br/>
+						ensure the term is identifiable with the object its representing.</p>
+					<p class="fragment fade-up">Try not to reuse the term across multiple objects to represent different concepts.</p>
+					<p class="fragment fade-up">Use either singular or plurals.</p>
+				</section>
+
+				<section data-background-image="images/jackie.jpg" data-background-opacity="0.2">
+					<h2>Understandability</h2>
+					<p>name should describe the concept it represents.</p>
+				</section>
+
+				<section data-background-image="images/jackie.jpg" data-background-opacity="0.2">
+					E.g. record_type<br/>
+					<p>Avoid the use of ambiguous names.</p>
+					<p class="fragment fade-up">Try to describe the concept in relation to the object its attached to.</p>
+					<pre><p class="fragment fade-up">user_group, log_entry_type, task_category</p></pre> 
+				</section>
+
+				<section data-background-position="50% 80%" data-background-size="40%" data-background-image="images/diamonds.jpg" data-background-opacity="0.8">
+					<h2>Specificity</h2>
+					A name shouldn’t be overly vague or overly specific.
+					<br/><br/><br/><br/>
+				</section>
+
+				<section data-background-position="50% 80%" data-background-size="40%" data-background-image="images/diamonds.jpg" data-background-opacity="0.1">
+					mmm
+				</section>
+
+				<section data-background-size="50%" data-background-image="images/longstory.jpg" data-background-opacity="0.3">
+					<h2>Brevity</h2>
+					A name should be neither overly short nor overly long.
+					<p class="fragment fade-up">it</p>
+					<p class="fragment fade-up">oxidized_carbonferro_tubular_liquid_extracting_mechanism</p>
+				</section>
+				
+				<section data-background-image="images/lost.jpg" data-background-opacity="0.3">
+					<h2>Searchability</h2>
+					A name should be easily found across code, documentation, and other resources.
+				</section>
+				<section data-background-image="images/folder.jpg" data-background-opacity="0.3">
+					Folders
+				</section>
+				<section data-background-image="images/files.png" data-background-opacity="0.3">
+					File names
+				</section>
+				<section data-background-image="images/lost.jpg" data-background-opacity="0.3">
+					Function Class names
+					<pre>
+user_details
+company_ird_details
+get_user
+group_list_result
+					</pre>
+					vs
+					<pre>
+company_ird_details
+group_list
+user_details
+user_get
+					</pre>
+				</section>
+
+				<section data-background-image="images/pronounce.webp" data-background-opacity="0.3">
+					<h2>Pronounceability</h2>
+					A name should be easy to use in common speech.
+				</section>
+				<section data-background-image="images/pronounce.webp" data-background-opacity="0.3">
+					agtvb
+				</section>
+
+				<section data-background-image="images/batman-suparman.jpg" data-background-opacity="0.3">
+					<h2>Austerity</h2>
+					A name should not be clever or rely on temporary concepts..
+				</section>
+				<section data-background-image="images/batman-suparman.jpg" data-background-opacity="0.3">
+					clever_clogs
+					<p class="fragment fade-up">planking_scale</p>
+				</section>
+				 
+
+				<section data-background-image="images/baadar-meinhoff-.jpg" data-background-opacity="0.1">
+					<h2>Object[-Element][-Sub Element|Action]</h2>
+
+					Initially i used this pattern for function names<br/>
+					It soon appered like the car you brought that you see everywhere now.
+				</section>
+
+				<section data-background-image="images/baadar-meinhoff-.jpg" data-background-opacity="0.1">
+					<h2>Class/Function</h2>
+					<pre>
+					<code>
+	ConfigFile (ObjectElement)
+	company_user_update (object_element_action)
+	task_to_pdf task_from_csv (object_action)
+					</code>
+					</pre>
+				</section>
+
+				<section data-background-image="images/baadar-meinhoff-.jpg" data-background-opacity="0.1">
+					<h2>Variables</h2>
+					<pre>
+					<code>
+	system_id (object_element)
+	task_owner_company_id (object_element_sub-element)
+	Config_Files (object_element)
+					</code>
+					</pre>
+				</section>
+
+				<section data-background-image="images/baadar-meinhoff-.jpg" data-background-opacity="0.1">
+					<h2>Folder/File Names</h2>
+					<pre>
+					<code>
+	companyX_ird_details.txt (object_element_sub-element)
+					</code>
+					</pre>
+				</section>
+
+				<section data-background-position="50% 90%" data-background-size="20%" data-background-image="images/catalyst.png" data-background-opacity="1">
+					<h2>Catalyst Conventions</h2>
+					<a>http://process-manual.int.catalystcloud.nz/naming-convention.html</a>
+					<br/><br/>
+				</section>
+				<section data-background-position="50% 90%" data-background-size="20%" data-background-image="images/catalyst.png" data-background-opacity="1">
+					<h2>Regions</h2>
+					country code + airport code + suffix<br/>
+					e.g. nz-wlg-1<br/>
+					(object-sub-object-suffix)
+				</section>
+				<section data-background-position="50% 90%" data-background-size="20%" data-background-image="images/catalyst.png" data-background-opacity="1">
+					<h2>API endpoints</h2> 
+					"api" + country code + airport code + suffix<br/>
+					e.g. api.nz-por-1<br/>
+					object-(object-sub-object-suffix)
+				</section>
+				<section data-background-position="50% 90%" data-background-size="20%" data-background-image="images/catalyst.png" data-background-opacity="1">		
+					<h2>Projects</h2> 
+					project name + sub project name<br/>
+					e.g. my-company-limited/my-project1/dev
+					(object/sub-object/suffix)
+				</section>
+
+				<section data-background-image="images/minionmicdrop.jpg">
+
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
